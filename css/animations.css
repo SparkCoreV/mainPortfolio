@@ -1,0 +1,108 @@
+/* Text Reveal Animation */
+.reveal-text {
+    position: relative;
+    overflow: hidden;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: revealText 0.8s ease forwards;
+}
+
+.reveal-text-delay {
+    position: relative;
+    overflow: hidden;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: revealText 0.8s ease forwards;
+    animation-delay: 0.3s;
+}
+
+.reveal-text-delay-2 {
+    position: relative;
+    overflow: hidden;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: revealText 0.8s ease forwards;
+    animation-delay: 0.6s;
+}
+
+.reveal-text-delay-3 {
+    position: relative;
+    overflow: hidden;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: revealText 0.8s ease forwards;
+    animation-delay: 0.9s;
+}
+
+@keyframes revealText {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Fade In Animation */
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 1s ease forwards;
+}
+
+.fade-in-delay {
+    opacity: 0;
+    animation: fadeIn 1s ease forwards;
+    animation-delay: 0.3s;
+}
+
+.fade-in-delay-2 {
+    opacity: 0;
+    animation: fadeIn 1s ease forwards;
+    animation-delay: 0.6s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Slide In Animation */
+.slide-in-left {
+    transform: translateX(-50px);
+    opacity: 0;
+    animation: slideInLeft 0.8s ease forwards;
+}
+
+.slide-in-right {
+    transform: translateX(50px);
+    opacity: 0;
+    animation: slideInRight 0.8s ease forwards;
+}
+
+@keyframes slideInLeft {
+    0% {
+        transform: translateX(-50px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInRight {
+    0% {
+        transform: translateX(50px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+} 
