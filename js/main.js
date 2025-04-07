@@ -121,19 +121,4 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 }); 
 
-<div id="selection-box" style="position: fixed; bottom: 20px; right: 20px; background: #111; color: #fff; padding: 10px 15px; border-radius: 10px; display: none; z-index: 999;">"You noticed something? 👀"</div>
 
-<script>
-  document.addEventListener("mouseup", () => {
-    const selectedText = window.getSelection().toString();
-    const box = document.getElementById("selection-box");
-    
-    if (selectedText.length > 0) {
-      box.style.display = "block";
-      box.innerText = `"${selectedText}" 👀`;
-      setTimeout(() => {
-        box.style.display = "none";
-      }, 3000);
-    }
-  });
-</script>
