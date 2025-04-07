@@ -852,3 +852,8 @@ section {
         height: 350px;
     }
 } 
+::selection {
+  background: #00ff00;
+  color: black;
+  text-shadow: 0 0 5px #00ff00;
+}
