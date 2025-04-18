@@ -869,7 +869,7 @@ section {
 }
 
 ::selection {
-    color: #0d0d0d;
+    color: #ffffff;
     background-color: transparent;
     /* background: transparent; */
     color: rgb(255, 255, 255);
