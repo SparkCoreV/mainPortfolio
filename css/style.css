@@ -783,6 +783,7 @@ section {
     .project-card:nth-child(even) .project-content {
         order: 2;
     }
+    
 
     .project-image {
         height: 100%;
